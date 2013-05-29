@@ -1,0 +1,16 @@
+# Rename or copy to ssotest.properties and fill in the details
+
+# For configuring realm and service used for authentication
+# For more info, see https://wikis.forgerock.org/confluence/display/openam/Use+OpenAM+RESTful+Services
+openam.authentication.uri = realm=/&service=ldapService
+
+# OpenAM host (and port separated by colon if necessary)
+openam.host = localhost:8090
+
+# Google OAuth 2.0 parameters (https://code.google.com/apis/console/):
+# 1) Google Application ID
+google.oauth.client_id = NN.apps.googleusercontent.com
+# 2) Client Secret
+google.oauth.client_secret = xxyy
+# 3) Return URL registered to Google
+google.oauth.return_url = http://localhost:8080/auth/google/return
