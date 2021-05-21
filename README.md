@@ -9,3 +9,4 @@ Simple base implementations for:
     + [More info](https://developers.google.com/accounts/docs/OAuth2Login)
 
 
+**This project is archived.**
